@@ -43,6 +43,13 @@ The forth exercise list covers the following topics:
 
 This exercise list explores the application of Artificial Neural Networks in nonlinear regression and classification tasks. In question 1, a dataset on concrete properties is used to train and evaluate a nonlinear regression model. The model, based on a Multilayer Perceptron (MLP) with 1 hidden layer, is trained using minibatch stochastic gradient descent with momentum. The dataset is randomly split into training, validation, and test sets, and metrics such as RMSE, MAE, and MRE are reported. In question 2, a dataset on British speech samples is employed to train and evaluate a nonlinear classification model using a similar architecture. The accuracy is reported for the training, validation, and test sets. Both questions provide insights into the model's learning process through cost function curves over epochs.
 
+### List 5 - Binary Classification with SVM and Random Forest
+The fifth exercise list covers the following topics:
+
+SVM with RBF Kernel and Grid-Search
+Random Forest and Grid-Search
+The fifth exercise list focuses on binary classification using SVM and Random Forest models. It involves tuning the hyperparameters using grid-search and evaluating the models' performance on test data. The goal is to optimize the Accuracy, Recall, Precision, and F1-score metrics for predicting house prices in California districts during the 1990s. Additionally, plots were created for the ROC curve and the Precision-Recall curve. Existing implementations, such as those provided by Scikit-learn, were used for this task.
+
 ## Contributing
 Contributions are always welcome! If you find an error in the exercises, have a suggestion for improvement, or wish to add new exercises, feel free to create an issue or send a pull request.
 
